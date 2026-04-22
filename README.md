@@ -118,3 +118,6 @@ This assignment demonstrates:
 - How to treat leaf and composite objects uniformly
 - How to compute aggregate values recursively
 - How to design a flexible and extensible object model for hierarchical systems
+
+## UML Diagram
+![alt text](https://github.com/ramdcrz/compositePattern/blob/main/compositePattern_UML.png)
