@@ -1,4 +1,5 @@
-// Student.java
+package labAssignment8;
+
 public class Student implements EducationalUnit {
     private String name;
     private String studentId;

@@ -1,4 +1,5 @@
-// Department.java
+package labAssignment8;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,5 @@
-// UniversityApp.java
+package labAssignment8;
+
 public class UniversityApp {
     public static void main(String[] args) {
         // 1. Create Teachers
