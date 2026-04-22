@@ -89,48 +89,6 @@ The client program builds the hierarchy and demonstrates the required functional
 - Displaying the university structure
 - Calculating student counts and budgets
 
-## Execution Flow
-
-1. Create teacher and student objects
-2. Create department composites and add leaf objects to them
-3. Create college composites and add departments or other colleges
-4. Create the main university structure as the top-level composite
-5. Display the full hierarchy using recursive traversal
-6. Compute the total number of students recursively
-7. Compute the total budget recursively
-
-## Sample Output
-
-```
-==================================================
-		  NEW ERA UNIVERSITY HIERARCHY
-==================================================
-
-[College] New Era University - Main Campus
-	[College] College of Computing and Information Sciences
-		[Department] Department of Computer Science
-			Teacher: Alice Smith | Subject: Data Structures | Salary: $60000.0
-			Teacher: Bob Jones | Subject: Machine Learning | Salary: $75000.0
-			Student: David Doe | ID: ID001 | Tuition: -$5000.0
-			Student: Eve Adams | ID: ID002 | Tuition: -$5000.0
-		Student: Hank Pym | ID: ID005 | Tuition: -$6000.0
-	[College] College of Business Administration
-		[Department] Department of Accountancy
-			Teacher: Carol White | Subject: Accounting | Salary: $55000.0
-			Student: Frank Castle | ID: ID003 | Tuition: -$4500.0
-			Student: Grace Lee | ID: ID004 | Tuition: -$4500.0
-
-==================================================
-				 UNIVERSITY METRICS
-==================================================
-
-Total Students in University: 5
-Total Students in College of Computing: 3
-
-Total Budget (Net Cost) for University: $165000.0
-Total Budget for Computer Science Dept: $125000.0
-```
-
 ## Benefits of the Composite Pattern
 
 ✅ Treats individual units and grouped units through the same interface
@@ -160,6 +118,3 @@ This assignment demonstrates:
 - How to treat leaf and composite objects uniformly
 - How to compute aggregate values recursively
 - How to design a flexible and extensible object model for hierarchical systems
-
-## UML Diagram
-![alt text](https://github.com/ramdcrz/compositePattern/blob/main/compositePattern_UML.png)
